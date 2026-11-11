@@ -4,3 +4,11 @@
   feature/update-readme-a
   feature/update-readme-b
 * main
+  remotes/origin/HEAD -> origin/develop
+  remotes/origin/develop
+  remotes/origin/feature/add-student
+  remotes/origin/feature/search-student
+  remotes/origin/feature/update-readme-a
+  remotes/origin/feature/update-readme-b
+  remotes/origin/lab/local-completed
+  remotes/origin/main

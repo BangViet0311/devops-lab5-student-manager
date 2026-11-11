@@ -16,7 +16,7 @@ def main():
     root = Path(__file__).resolve().parents[1]
     mode = sys.argv[1]
     commands = {
-        "log": ("git log --oneline --graph --all -24", "01-git-log.png"),
+        "log": ("git log --oneline --graph --all -8", "01-git-log.png"),
         "branch": ("git branch -a", "02-git-branch.png"),
         "output": ("python src/main.py", "08-final-output.png"),
     }
@@ -64,6 +64,7 @@ def main():
         user32.ShowWindow(hwnd, 9)
         user32.SetWindowPos(hwnd, -1, 40, 40, 1300, 850, 0x0040)
         user32.SetForegroundWindow(hwnd)
+        user32.SetCursorPos(100, 65)
         time.sleep(3)
         rect = wintypes.RECT()
         user32.GetWindowRect(hwnd, ctypes.byref(rect))

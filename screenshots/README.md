@@ -18,5 +18,5 @@ Không chụp token, mật khẩu hoặc dữ liệu đăng nhập.
 
 Ảnh 06/07 là tái hiện conflict thật trong clone riêng cùng máy để không ảnh hưởng
 dự án chính. Clone dùng đúng hai nhánh README của lịch sử; ảnh 07 chụp sau khi
-giải quyết, add và commit. Ảnh 01 chụp 24 dòng gần nhất của đồ thị; xem toàn bộ
+giải quyết, add và commit. Ảnh 01 chụp 8 commit gần nhất của đồ thị; xem toàn bộ
 lịch sử bằng `git log --oneline --graph --all`.

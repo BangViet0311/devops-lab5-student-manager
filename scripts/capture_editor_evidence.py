@@ -45,6 +45,7 @@ def main():
     user32.ShowWindow(hwnd, 9)
     user32.SetWindowPos(hwnd, -1, 25, 25, 1400, 850, 0x0040)
     user32.SetForegroundWindow(hwnd)
+    user32.SetCursorPos(100, 65)
     if "--dismiss-welcome" in sys.argv:
         user32.keybd_event(0x1B, 0, 0, 0)
         user32.keybd_event(0x1B, 0, 2, 0)
