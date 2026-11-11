@@ -1,0 +1,17 @@
+test_add_student (test_students.StudentTests.test_add_student) ... ok
+test_add_to_empty_list (test_students.StudentTests.test_add_to_empty_list) ... ok
+test_duplicate_does_not_change_list (test_students.StudentTests.test_duplicate_does_not_change_list) ... ok
+test_empty_keyword_matches_all_as_in_lab (test_students.StudentTests.test_empty_keyword_matches_all_as_in_lab) ... ok
+test_search_does_not_change_list (test_students.StudentTests.test_search_does_not_change_list) ... ok
+test_search_empty_list (test_students.StudentTests.test_search_empty_list) ... ok
+test_search_id_case_insensitive (test_students.StudentTests.test_search_id_case_insensitive) ... ok
+test_search_missing (test_students.StudentTests.test_search_missing) ... ok
+test_search_name_case_insensitive (test_students.StudentTests.test_search_name_case_insensitive) ... ok
+test_search_partial_id (test_students.StudentTests.test_search_partial_id) ... ok
+test_string (test_students.StudentTests.test_string) ... ok
+test_to_dict (test_students.StudentTests.test_to_dict) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.001s
+
+OK
