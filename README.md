@@ -37,10 +37,16 @@ cập nhật README, tạo và giải quyết merge conflict, merge về `main`.
 Các nhánh feature được giữ để tiện kiểm tra lịch sử.
 Tên Nhóm A/B là nhãn kịch bản của đề, không phải hai người đã review thực tế.
 
-Đã cấu hình `origin` dự kiến:
+Repository GitHub:
 `https://github.com/BangViet0311/devops-lab5-student-manager.git`.
-**Chưa tạo/xác minh repository trên GitHub, chưa push/pull, chưa có PR hoặc review thực tế.**
-Xem `HUONG_DAN_GITHUB.md` để hoàn tất. Không nộp bài như đã hoàn thành 100%.
+- Đã tạo repo, push main/develop ban đầu và hai nhánh feature.
+- PR #1: https://github.com/BangViet0311/devops-lab5-student-manager/pull/1
+- PR #2: https://github.com/BangViet0311/devops-lab5-student-manager/pull/2
+- Bản local hoàn chỉnh được lưu trên nhánh `lab/local-completed`.
+- `develop` online đang giữ base ban đầu để hai PR còn diff và có thể review.
+
+**Hai PR đang chờ review, chưa merge; chưa hoàn tất bài 100%.**
+Xem `HUONG_DAN_GITHUB.md` để hoàn tất.
 
 ## Tác giả
 - Dev A: [Điền họ tên, MSSV, GitHub]

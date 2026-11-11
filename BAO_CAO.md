@@ -5,8 +5,13 @@
 - Dev A: [Họ tên — MSSV — GitHub]
 - Dev B: [Họ tên — MSSV — GitHub]
 - Tài khoản GitHub: BangViet0311.
-- Remote dự kiến: https://github.com/BangViet0311/devops-lab5-student-manager.git
-  (đã cấu hình origin local, chưa tạo/xác minh repo online).
+- Repository: https://github.com/BangViet0311/devops-lab5-student-manager
+  (đã tạo public và push các nhánh ban đầu).
+- PR #1: https://github.com/BangViet0311/devops-lab5-student-manager/pull/1
+- PR #2: https://github.com/BangViet0311/devops-lab5-student-manager/pull/2
+- Hai PR đang mở, chưa có review/approve của thành viên thứ hai.
+- Nhánh online `lab/local-completed` lưu sản phẩm local hoàn chỉnh;
+  main/develop online chưa được phát hành bản này để giữ quy trình PR.
 
 ## Đã thực hiện trên máy
 1. Kiểm tra Git 2.54.0 và Python 3.13.1; dùng cấu hình Git hiện có,
@@ -39,7 +44,7 @@ Xem kết quả thực thi tại `evidence/09-tests.txt`.
 Demo: `python src/main.py`, xem `evidence/08-final-output.txt`.
 
 ## Phần chưa hoàn thành
-- Tạo repository GitHub, push/pull, clone trên máy Dev B.
+- Pull/clone trên máy Dev B và đồng bộ lịch sử remote sau khi review.
 - Hai PR được merged và review bằng tài khoản người thứ hai.
 - Ảnh chụp thật của GitHub, terminal và trình soạn thảo.
 - Điền thông tin thành viên và đổi tên ZIP theo đề.
