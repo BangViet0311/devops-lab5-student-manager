@@ -1,10 +1,10 @@
 # Hoàn tất phần GitHub
 
-> Cập nhật: repo đã tạo, các nhánh ban đầu đã push và PR #1/#2 đã mở.
-> Không chạy lại bước 1–2. Thành viên thứ hai cần review PR #1 trước;
-> sau khi merge #1, đồng bộ nhánh search theo hướng dẫn giải quyết conflict
-> ở bước 2, review/merge #2, rồi thực hiện bước 3.
-> Nhánh `lab/local-completed` là bản hoàn chỉnh local, chưa phải bản đã review.
+> Đã hoàn tất: repo, hai PR, approve bằng tài khoản phụ, merge và đồng bộ lịch sử.
+> Các bước bên dưới giữ làm tài liệu tham khảo quy trình đã thực hiện;
+> không chạy lại lệnh push trạng thái ban đầu vào repo hiện tại.
+> Một người sở hữu hai tài khoản mô phỏng Dev A/Dev B, không phải hai thành viên độc lập.
+> Có đủ 8 ảnh thật; xem `screenshots/README.md` và `BAO_CAO.md`.
 
 ## 1. Tạo remote
 Dev A đăng nhập GitHub và tạo repo public `devops-lab5-student-manager` rỗng

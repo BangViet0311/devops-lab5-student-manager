@@ -2,16 +2,18 @@
 
 ## Thông tin nhóm
 - Nhóm: [Bổ sung]
-- Dev A: [Họ tên — MSSV — GitHub]
-- Dev B: [Họ tên — MSSV — GitHub]
+- Người thực hiện: [Điền họ tên — MSSV].
+- Vai Dev A: BangViet0311, tài khoản chính.
+- Vai Dev B: Bangviet-0311, tài khoản phụ của cùng người thực hiện.
+- Hình thức cá nhân mô phỏng hai vai; không khai là nhóm hai người hoặc review độc lập.
 - Tài khoản GitHub: BangViet0311.
 - Repository: https://github.com/BangViet0311/devops-lab5-student-manager
   (đã tạo public và push các nhánh ban đầu).
 - PR #1: https://github.com/BangViet0311/devops-lab5-student-manager/pull/1
 - PR #2: https://github.com/BangViet0311/devops-lab5-student-manager/pull/2
-- Hai PR đang mở, chưa có review/approve của thành viên thứ hai.
-- Nhánh online `lab/local-completed` lưu sản phẩm local hoàn chỉnh;
-  main/develop online chưa được phát hành bản này để giữ quy trình PR.
+- Hai PR đã được tài khoản phụ review/approve và merge thật trên GitHub.
+- Bản hoàn chỉnh tích hợp lịch sử PR được đồng bộ vào main/develop.
+- Nhánh `lab/local-completed` là bản lưu bổ sung của bài thực hành.
 
 ## Đã thực hiện trên máy
 1. Kiểm tra Git 2.54.0 và Python 3.13.1; dùng cấu hình Git hiện có,
@@ -43,12 +45,22 @@ từ khóa rỗng và không làm thay đổi danh sách khi tìm.
 Xem kết quả thực thi tại `evidence/09-tests.txt`.
 Demo: `python src/main.py`, xem `evidence/08-final-output.txt`.
 
-## Phần chưa hoàn thành
-- Pull/clone trên máy Dev B và đồng bộ lịch sử remote sau khi review.
-- Hai PR được merged và review bằng tài khoản người thứ hai.
-- Ảnh chụp thật của GitHub, terminal và trình soạn thảo.
-- Điền thông tin thành viên và đổi tên ZIP theo đề.
+## Hoàn tất GitHub và minh chứng
+- GitHub PR #1: review của Bangviet-0311 và merge commit `01befe8`.
+- Sau khi merge #1, đồng bộ develop vào nhánh search và xử lý conflict thật,
+  giữ cả hai hàm; chạy lại demo trước khi push.
+- GitHub PR #2: review của Bangviet-0311 và merge commit `eee4c7f`.
+- Fetch lịch sử PR về local, merge với bản hoàn chỉnh, kiểm thử, push main/develop.
+- Ảnh 01/02/08 chụp cửa sổ PowerShell thật chạy lệnh trên dự án.
+- Ảnh 03/04/05 chụp trực tiếp trang GitHub, gồm trạng thái Merged và Approve.
+- Ảnh 06/07 chụp VS Code trong clone riêng tên `Lab5-conflict-replay-0f8cad7f`.
+  Clone này lấy đúng hai nhánh README trong lịch sử, bắt đầu từ nhánh B rồi merge A,
+  tạo conflict thật; sau đó sửa README, add, commit và kiểm tra working tree sạch.
+  Đây là tái hiện phục vụ ảnh minh chứng, không phải ảnh chụp tại thời điểm conflict đầu tiên.
+- Không chỉnh sửa nội dung ảnh để giả trạng thái; không tạo người review giả.
+- Tên Nhóm A/B trong README là nhãn của kịch bản, không phải hai người thực hiện.
 
-Các merge trong lịch sử hiện tại là **merge local**, không phải GitHub PR.
-Toàn bộ commit dùng danh tính Git có sẵn; không giả làm Dev A/Dev B.
-Log văn bản không thay thế ảnh minh chứng theo rubric.
+## Việc người nộp bài cần làm
+- Điền họ tên, MSSV và thông tin nhóm nếu được yêu cầu, đổi tên ZIP theo quy định.
+- Xin giảng viên chấp thuận việc một người dùng hai tài khoản thay nhóm hai người.
+- Không có máy Dev B độc lập; clone thứ hai được thực hiện trên cùng máy.
