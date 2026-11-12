@@ -1,8 +1,0 @@
-﻿# Student Manager
-
-á»¨ng dá»¥ng quáº£n lÃ½ sinh viÃªn â€” DevOps Lab 5
-<<<<<<< HEAD
-**Version 1.0.0** â€” PhÃ¡t triá»ƒn bá»Ÿi NhÃ³m B
-=======
-**Version 1.0.0** â€” PhÃ¡t triá»ƒn bá»Ÿi NhÃ³m A
->>>>>>> feature/update-readme-a
